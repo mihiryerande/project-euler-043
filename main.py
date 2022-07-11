@@ -19,9 +19,10 @@
 #     Find the sum of all 0 to 9 pandigital numbers with this property.
 
 from itertools import permutations
+from typing import List, Tuple
 
 
-def main():
+def main() -> Tuple[List[int], int]:
     """
     Returns a list of all 0-to-9 pandigital numbers having the 'sub-string divisibility' property,
       as well as the sum of those numbers.
